@@ -53,7 +53,7 @@ header {
 }
 
 
-.ailure-discription {
+.failure-discription {
     margin-right: 45px;
 }
 
@@ -68,6 +68,40 @@ header {
     margin-top: 100px;
     font-family: 'Work Sans', sans-serif;
 }
+/* skill section start */
+
+.skill-title{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    background-color: #F15B22;
+    border-radius: 30px;
+}
+
+
+.skill-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 20px;
+    gap: 200px;
+}
+.skill-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.skill-subtitle{
+    display: block;
+}
+.skill-description{
+    width:300px;
+}
 
 /* plans section start */
 .plans-title {
@@ -76,6 +110,8 @@ header {
     font-family: 'Work Sans', sans-serif;
     font-weight: 700;
     font-size: 40px;
+    background-color: #F15B22;
+    border-radius:30px;
 }
 
 .plans-description {
@@ -193,3 +229,4 @@ header {
     font-size: 20px;
     border-radius: 8px;
 }
+
